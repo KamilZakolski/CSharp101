@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CSharp101
 {
-    internal class Transaction
+    public class Transaction
     {
         public decimal Amount { get; }
         public DateTime Date { get; }
